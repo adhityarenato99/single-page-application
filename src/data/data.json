@@ -1,0 +1,24 @@
+{
+    "Team": [
+        {
+            "img": "img/team/01.jpg",
+            "name": "Gianni",
+            "job": "Director"
+        },
+        {
+            "img": "img/team/03.jpg",
+            "name": "Nicolleta",
+            "job": "Senior Designer"
+        },
+        {
+            "img": "img/team/02.jpg",
+            "name": "Diego",
+            "job": "Senior Designer"
+        },
+        {
+            "img": "img/team/04.jpg",
+            "name": "Karen Doe",
+            "job": "Project Manager"
+        }
+    ]
+}

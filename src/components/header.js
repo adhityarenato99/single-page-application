@@ -4,7 +4,7 @@ import './header.css'
 
 export const Header = (props) => {
     return (
-        <header id="header">
+        <header id="home">
             <div className="intro">
                 <div className="overlay">
                     <div className="container">

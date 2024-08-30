@@ -31,23 +31,23 @@ export const Navigation = (props) => {
 
                 <div className="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <a className="navbar-brand page-scroll text-center" href="#page-top">
-                        React Landing Page
+                        EdVentura
                     </a>
 
                     <ul className="nav navbar-nav navbar-left">
                         <li>
                             <a href="#header" className="page-scroll">
-                                Header
+                                Home
                             </a>
                         </li>
                         <li>
-                            <a href="#about" className="page-scroll">
-                                About
+                            <a href="#team" className="page-scroll">
+                                About Us
                             </a>
                         </li>
                         <li>
-                            <a href="#activities" className="page-scroll">
-                                Activities
+                            <a href="#activity" className="page-scroll">
+                                Activities & Sessions
                             </a>
                         </li>
                     </ul>
@@ -55,12 +55,12 @@ export const Navigation = (props) => {
                     <ul className="nav navbar-nav navbar-right">
                         <li>
                             <a href="#bookings" className="page-scroll">
-                                Bookings
+                                Book Your Session
                             </a>
                         </li>
                         <li>
                             <a href="#events" className="page-scroll">
-                                Events
+                                School Events & Parties
                             </a>
                         </li>
                     </ul>
