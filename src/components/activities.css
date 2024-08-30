@@ -1,0 +1,76 @@
+/* General Styles */
+.feature-card {
+    position: relative;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+    overflow: hidden;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.feature-card:hover {
+    transform: translateY(-10px);
+}
+
+.feature-image {
+    position: absolute;
+    width: 100px;
+    height: auto;
+    z-index: 1;
+}
+
+/* Specific Positioning */
+.top-left {
+    top: 20px;
+    left: 20px;
+}
+
+.top-right {
+    top: 20px;
+    right: 20px;
+}
+
+/* Card Colors */
+.blue-card {
+    background-color: #0099cc;
+}
+
+.orange-card {
+    background-color: #ff6600;
+}
+
+/* Button Styles */
+.btn-custom {
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    border: 2px solid white;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    z-index: 2;
+}
+
+.orange-btn {
+    background-color: #ff6600;
+}
+
+.orange-btn:hover {
+    background-color: #e55c00;
+}
+
+.blue-btn {
+    background-color: #0099cc;
+}
+
+.blue-btn:hover {
+    background-color: #007fa1;
+}
