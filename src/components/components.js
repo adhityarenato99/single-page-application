@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaHome, FaInfoCircle, FaServicestack, FaImages, FaEnvelope } from 'react-icons/fa';
+import { FaInstagram, FaTwitter, FaFacebook, FaTiktok, FaLinkedin } from 'react-icons/fa';
 
 import './navbar.css'
 
@@ -21,11 +21,11 @@ export const Navigation = (props) => {
                     </button>
                     {/* Make all icon pull right */}
                     <div className="navbar-icons pull-right">
-                        <FaHome className="navbar-icon" />
-                        <FaInfoCircle className="navbar-icon" />
-                        <FaServicestack className="navbar-icon" />
-                        <FaImages className="navbar-icon" />
-                        <FaEnvelope className="navbar-icon" />
+                        <FaInstagram className="navbar-icon" />
+                        <FaTwitter className="navbar-icon" />
+                        <FaFacebook className="navbar-icon" />
+                        <FaTiktok className="navbar-icon" />
+                        <FaLinkedin className="navbar-icon" />
                     </div>
                 </div>
 
