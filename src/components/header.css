@@ -1,0 +1,19 @@
+#header {
+    position: relative; /* Ensure the header has a relative position */
+    height: 100vh; /* Make the header section fill the full viewport height */
+}
+
+.bottom-right-button {
+    position: absolute;
+    bottom: 30px;
+    right: 0;
+    background-color: #007bff;
+    color: white;
+    padding: 20px 39px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.bottom-right-button:hover {
+    background-color: #0056b3; /* Optional: Customize the button hover color */
+}
