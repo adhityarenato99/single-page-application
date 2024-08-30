@@ -1,0 +1,58 @@
+.navbar-icons {
+    display: flex;
+    justify-content: flex-end; /* Align icons to the right */
+    width: 100%;
+    padding: 10px 15px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.navbar-icon {
+    font-size: 20px;
+    color: #333;
+    margin-left: 15px; /* Add some space between the icons */
+}
+
+.navbar-brand {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.navbar-toggle {
+    margin-right: 0;
+}
+
+/* @media (max-width: 768px) {
+    .navbar-brand {
+        top: 60%;
+        transform: translate(-50%, -60%);
+    }
+
+    .navbar-icons {
+        justify-content: center;
+    }
+
+    .navbar-icon {
+        margin-left: 10px; 
+    }
+}  */
+
+/* Media query to hide the brand name on smaller screens */
+@media (max-width: 767px) {
+    .navbar-brand {
+        display: none;
+    }
+}
+
+/* Make sure the navbar covers the icons when scrolling */
+/* .navbar-fixed-top {
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+    position: fixed;
+} */
