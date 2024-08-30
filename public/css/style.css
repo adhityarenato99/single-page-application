@@ -208,7 +208,7 @@ a:focus,
   display: table;
   width: 100%;
   padding: 0;
-  background: url(../img/intro-bg.jpg) center center no-repeat;
+  background: url(../img/intro-bg3.jpg) center center no-repeat;
   background-color: #e5e5e5;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -241,7 +241,7 @@ a:focus,
 }
 header .intro-text {
   padding-top: 350px;
-  padding-bottom: 200px;
+  padding-bottom: 400px;
   text-align: center;
 }
 /* Features Section */
@@ -262,7 +262,7 @@ header .intro-text {
 }
 /* About Section */
 #about {
-  padding: 100px 0;
+  padding: 40px 0;
 }
 #about h3 {
   font-size: 22px;
@@ -448,6 +448,7 @@ header .intro-text {
 }
 #team .team-img {
   width: 240px;
+  border-radius: 20px;
 }
 #team .thumbnail {
   background: transparent;
@@ -457,6 +458,46 @@ header .intro-text {
   padding: 10px 0 0;
   color: #888;
 }
+
+/* Bookings Section */
+#bookings {
+  padding: 100px 0;
+}
+#bookings h4 {
+  margin: 5px 0;
+}
+#bookings .bookings-img {
+  width: 240px;
+  border-radius: 20px;
+}
+#bookings .thumbnail {
+  background: transparent;
+  border: 0;
+}
+#bookings .thumbnail .caption {
+  padding: 10px 0 0;
+  color: #888;
+}
+
+/* Activity section */
+#activity {
+  padding: 100px 0;
+}
+#activity h4 {
+  margin: 5px 0;
+}
+#activity .team-img {
+  width: 240px;
+}
+#activity .thumbnail {
+  background: transparent;
+  border: 0;
+}
+#activity .thumbnail .caption {
+  padding: 10px 0 0;
+  color: #888;
+}
+
 /* Contact Section */
 #contact {
   padding: 100px 0 60px;
