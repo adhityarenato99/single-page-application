@@ -20,7 +20,7 @@ export const Home = (props) => {
                     </div>
                     <div className="col-xs-12 col-md-6">
                         {" "}
-                        <img src="img/man-climbing-wall.jpg" className="img-responsive" alt="" fluid />{" "}
+                        <img src="img/man-climbing-wall.jpg" style={{borderRadius: '30px'}} className="img-responsive" alt="" fluid />{" "}
                     </div>
                 </div>
             </div>
